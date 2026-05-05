@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <style>
+        body {
+            background-color: #ffebee;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .corazon {
+            color: #e91e63;
+            font-size: 100px;
+            animation: latido 1.2s infinite;
+        }
+        @keyframes latido {
+            0% { transform: scale(1); }
+            15% { transform: scale(1.2); }
+            30% { transform: scale(1); }
+            45% { transform: scale(1.15); }
+            60% { transform: scale(1); }
+        }
+        .mensaje {
+            text-align: center;
+            color: #880e4f;
+            margin-top: 20px;
+        }
+        button {
+            background-color: #ec407a;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="corazon">❤</div>
+    <div class="mensaje">
+        <h1>¡Hola! Tengo algo para ti...</h1>
+        <button onclick="alert('Eres la mejor de el mundo, estoy muy orgulloso de ti, no lo olvides. ¡Ti amo mito!')">Haz clic aquí</button>
+    </div>
+</body>
+</html>
